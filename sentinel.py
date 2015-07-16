@@ -25,7 +25,7 @@ class Sentinel(object):
                        will be loaded and executed whenever
                        'conditions' are met.
         - conditions : a list of node states defining when
-                       then 'action' should be executed.
+                       the 'action' should be executed.
 
                      EXAMPLE condition data
                      :[{ 'node': '<node_1_name>', 'state': '<off|on>', 'change': <True|False> }
